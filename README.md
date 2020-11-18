@@ -5,3 +5,8 @@ First, you need to install `Docker` correctly. Then run `docker-compose` command
 ```
 docker-compose up -d
 ```
+Then, find out the token:
+
+```
+docker-compose logs
+```
