@@ -10,3 +10,5 @@ Then, find out the token:
 ```
 docker-compose logs
 ```
+
+Open `localhost:12000` in your browser, and input the token.
