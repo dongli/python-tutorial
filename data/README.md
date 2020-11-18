@@ -55,3 +55,15 @@ Collecting cartopy
     Complete output (1 lines):
     Proj 4.9.0 must be installed.
 ```
+
+# 设置Docker国内源
+
+Mac下在docker图标的`Preferences -> Docker Engine`里黏贴如下内容，并应用重启Docker：
+```
+  "registry-mirrors": [
+    "http://ovfftd6p.mirror.aliyuncs.com",
+    "http://registry.docker-cn.com",
+    "http://docker.mirrors.ustc.edu.cn",
+    "http://hub-mirror.c.163.com"
+  ]
+```
