@@ -1,12 +1,19 @@
 # How to setup a JupyterLab environment
 
-First, you need to install `Docker` correctly (follow the instructions [here](https://www.docker.com/get-started)). Then run `docker-compose` command to start a JupyterLab container:
+First, you need to install `Docker` correctly (follow the instructions
+[here](https://www.docker.com/get-started)). Then you may set an environment
+variable `WORK_HOME` to anywhere you need, but this directory should be in path
+if you need the demo notebook files in `./data`. If you do not set one,
+  `./data` will be used. After that, run `docker-compose` command to start a
+  JupyterLab container:
 
 ```
 $ docker-compose up -d
 ```
 
-If you encounter difficulties to pull `jupyter/scipy-notebook` image, change the DockerHub sources by following the instructions [here](https://mirrors.ustc.edu.cn/help/dockerhub.html).
+If you encounter difficulties to pull `jupyter/scipy-notebook` image, change
+the DockerHub sources by following the instructions
+[here](https://mirrors.ustc.edu.cn/help/dockerhub.html).
 
 Then, find out the token:
 
